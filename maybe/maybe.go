@@ -1,5 +1,6 @@
 package maybe
 
+// TODO: waiting next version of Golang support Just[T] | Nothing
 type Maybe[T any] interface{}
 
 type Just[T any] struct {
